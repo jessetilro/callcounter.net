@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Callcounter.Net", "Callcounter.Net\Callcounter.Net.csproj", "{C340C3E7-350F-4DAC-A7AF-B0DC28E28735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C340C3E7-350F-4DAC-A7AF-B0DC28E28735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C340C3E7-350F-4DAC-A7AF-B0DC28E28735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C340C3E7-350F-4DAC-A7AF-B0DC28E28735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C340C3E7-350F-4DAC-A7AF-B0DC28E28735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AD2D88-BEFE-4AC7-B797-FC195B760AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AD2D88-BEFE-4AC7-B797-FC195B760AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AD2D88-BEFE-4AC7-B797-FC195B760AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AD2D88-BEFE-4AC7-B797-FC195B760AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
