@@ -10,6 +10,7 @@
         <Description>.Net package for Callcounter.</Description>
         <Company />
 	<Version>0.1.0</Version>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -19,4 +20,7 @@
       <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Include="../../LICENSE" Pack="true" PackagePath="" />
+    </ItemGroup>
 </Project>
