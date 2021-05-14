@@ -9,6 +9,7 @@
         <Authors>Jesse &amp; Jeroen</Authors>
         <Description>.Net package for Callcounter.</Description>
         <Company />
+	<Version>0.1.0</Version>
     </PropertyGroup>
 
     <ItemGroup>
