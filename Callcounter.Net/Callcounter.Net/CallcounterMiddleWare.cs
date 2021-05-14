@@ -28,7 +28,7 @@ namespace Callcounter.Net
                 "https://api.Callcounter.eu/api/v1/events/batch.json"; 
 
         private const string UserAgent = "Callcounter.net";
-        private const string UserAgentVersion = "1.0.0";
+        private const string UserAgentVersion = "0.1.0";
 
         public CallcounterMiddleWare(RequestDelegate next, IConfiguration configuration, HttpClient httpClient)
         {
