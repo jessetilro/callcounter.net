@@ -4,8 +4,8 @@
         <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>CallCounter_DotNet</RootNamespace>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageId>Callcounter.Net</PackageId>
-        <Title>Callcounter.Net</Title>
+        <PackageId>Callcounter</PackageId>
+        <Title>Callcounter</Title>
         <Authors>Jesse &amp; Jeroen</Authors>
         <Description>.Net package for Callcounter.</Description>
         <Company />
