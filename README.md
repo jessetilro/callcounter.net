@@ -23,7 +23,27 @@ Configure callcounter with the following key, this can be placed in your `appset
 }
 ```
 
-Now extend your `Startup.cs` with a call to `app.UseCallcounter();` in the `Configure` method and a call to `services.AddCallcounter();` in the `ConfigureServices` method.
+Now extend your `Startup.cs` with a number of calls:
+
+```
+...
+
+using Callcounter.Net;
+
+public void ConfigureServices(IServiceCollection services)
+{
+	...
+
+	services.AddCallcounter();
+}
+
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+	...
+
+	app.UseCallcounter();
+}
+```
 
 After deploying you should start seeing data in Callcounter. Note that this might take some time because this package
 only sends data every few requests or every few minutes.
